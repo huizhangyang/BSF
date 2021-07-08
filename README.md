@@ -16,7 +16,7 @@ function data_flt = BSF(data,block_len,Ns)
 %   block_len -----  block length use to perform block-wise processing, e.g., block_len = [1000 1000].
 %   Ns        -----  number of subspace dimension. Tuning this parameter to obtain satisfactory results.
 % Output:
-%   data_flt  -----   filtered single look complex SAR image data matrix
+%   data_flt  -----  filtered single look complex SAR image data matrix
 ```
 
 # Usage example
