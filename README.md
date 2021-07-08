@@ -5,11 +5,17 @@ Matlab/Octave code of block subspace filter for RFI removal in SAR images
 # Function description
 
 function data_flt = BSF(data,block_len,Ns)
+
 % Input:
+
 %   data      -----  single look complex SAR image data matrix, complex double
+
 %                    datatype.
+
 %   block_len -----  block length use to perform block-wise processing,
+
 %                    e.g., block_len = [1000 1000].
+
 %   Ns        -----  number of subspace dimension. Tuning this parameter to
 %                    obtain satisfactory results.
 % Output:
