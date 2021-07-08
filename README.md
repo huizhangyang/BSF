@@ -2,9 +2,9 @@
 Matlab/Octave code of block subspace filter for RFI removal in SAR images
 
 # File description
-BSF.m      --- BSF function   
-example.m  --- example code for testing BSF.m   
-data.mat   --- test data   
+BSF.m --- BSF function   
+example.m --- example code for testing BSF.m   
+data.mat --- test data   
 
 
 # Function description
