@@ -3,9 +3,9 @@ Matlab/Octave code implementation of block subspace filter (BSF) for removing ra
 
 # File description
 BSF.m --------- BSF function   
-example.m ----- example code for testing BSF.m   
+example.m ---- example code for testing BSF.m   
 data.mat ------ test data   
-plot_sar ------ function for plot a SAR data matrix as a gray scale image.    
+plot_sar ----- - function for plot a SAR data matrix as a gray scale image.    
 imgs ---------- folder containing gray-scale images.
 
 # Function description
