@@ -30,7 +30,9 @@ Ns = 2;                             % emprical RFI subspace dimensions
 data_flt = BSF(data,Nb,Ns);   
 ```
 # Example results
-![]('imgs/input.jpg' ''图片title'')
+![](main/imgs/input.jpg)
+![](main/imgs/output.jpg)
+![](main/imgs/res.jpg)
 
 More descriptions can be found in the following paper    
 ###### Huizhang Yang et al., “BSF: Block Subspace Filtering for Removing Narrowband and Wideband Radio Interference Artefacts in Single Look Complex SAR Images,” IEEE Trans. Geosci. Remote Sens, 2021.   
