@@ -30,7 +30,7 @@ Ns = 2;                             % emprical RFI subspace dimensions
 data_flt = BSF(data,Nb,Ns);   
 ```
 # Example results
-<img src="imgs/intput.jpg" width=256 height=256 />
+<img src="imgs/input.jpg" width=256 height=256 />
 <img src="imgs/output.jpg" width=256 height=256 />
 <img src="imgs/res.jpg" width=256 height=256 />
 
