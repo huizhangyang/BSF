@@ -12,12 +12,9 @@ imgs ---------- folder containing gray-scale images.
 ```
 function data_flt = BSF(data,block_len,Ns)     
 % Input:     
-%   data      -----  single look complex SAR image data matrix, complex double     
-%                    datatype.     
-%   block_len -----  block length use to perform block-wise processing,  
-%                    e.g., block_len = [1000 1000].
-%   Ns        -----  number of subspace dimension. Tuning this parameter to
-%                    obtain satisfactory results.
+%   data      -----  single look complex SAR image data matrix, complex double datatype.     
+%   block_len -----  block length use to perform block-wise processing, e.g., block_len = [1000 1000].
+%   Ns        -----  number of subspace dimension. Tuning this parameter to obtain satisfactory results.
 % Output:
 %   data_flt -----   filtered single look complex SAR image data matrix
 ```
@@ -30,9 +27,7 @@ Ns = 2;                             % emprical RFI subspace dimensions
 data_flt = BSF(data,Nb,Ns);   
 ```
 # Example results
-<img src="imgs/input.jpg" width=256 height=256 />
-<img src="imgs/output.jpg" width=256 height=256 />
-<img src="imgs/res.jpg" width=256 height=256 />
+<img src="imgs/input.jpg" width=256 height=256 /> <img src="imgs/output.jpg" width=256 height=256 /><img src="imgs/res.jpg" width=256 height=256 />
 
 More descriptions can be found in the following paper    
 ###### Huizhang Yang et al., “BSF: Block Subspace Filtering for Removing Narrowband and Wideband Radio Interference Artefacts in Single Look Complex SAR Images,” IEEE Trans. Geosci. Remote Sens, 2021.   
