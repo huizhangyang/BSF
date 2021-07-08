@@ -18,12 +18,12 @@ function data_flt = BSF(data,block_len,Ns)
 
 # Usage example
 ```
-load data                                   % load data
-Nb = [1000 1000];                           % block lengths
-Ns = 2;                                     % RFI subspace dimensions
+load data                           % load data
+Nb = [1000 1000];                   % block lengths
+Ns = 2;                             % emprical RFI subspace dimensions
 data_flt = BSF(data,Nb,Ns);   
 ```
 
-If you find this code useful, please consider citing the following paper
+If you find this code useful, please consider citing the following paper     
 Huizhang Yang et al., “BSF: Block Subspace Filtering for Removing Narrowband and Wideband Radio
 Interference Artefacts in Single Look Complex SAR Images,” IEEE Trans. Geosci. Remote Sens, 2021.
