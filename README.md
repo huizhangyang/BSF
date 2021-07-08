@@ -1,5 +1,5 @@
 # BSF
-Matlab/Octave code of block subspace filter for the removal of radio interference artefacts in SAR images
+Matlab/Octave code of block subspace filter (BSF) for removing radio interference artefacts in SAR images
 
 # File description
 BSF.m --------- BSF function   
