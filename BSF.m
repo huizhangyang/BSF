@@ -1,5 +1,5 @@
 function data_flt = BSF(data,block_len,Ns)
-% Block Subspace Filter for RFI removel in SAR images
+% Block Subspace Filter for the removal of radio interference artefacts in SAR images
 % ====================================================================
 % Input:
 %   data      -----  single look complex SAR image data matrix, complex double
@@ -10,9 +10,9 @@ function data_flt = BSF(data,block_len,Ns)
 %                    obtain satisfactory results.
 % Output:
 %   data_flt -----   filtered single look complex SAR image data matrix
-% Documentation:   ¡°BSF: Block Subspace Filtering for Removing Narrowband
+% Documentation:   Â¡Â°BSF: Block Subspace Filtering for Removing Narrowband
 %                    and Wideband Radio Interference Artefacts in Single Look
-%                    Complex SAR Images¡±,Huizhang Yang et al., IEEE Trans.
+%                    Complex SAR ImagesÂ¡Â±,Huizhang Yang et al., IEEE Trans.
 %                    Geosci. Remote Sens, 2021.
 % ========================================================================
 % By Huizhang Yang, 2021.7
