@@ -85,6 +85,6 @@ for kk = 1:Nb_a
         data_flt(idx,idr) = patch_rec(idx_o,idr_o);
     end
 end
-data_flt(isnan(data_flt))  =  0;
+
 end
 
