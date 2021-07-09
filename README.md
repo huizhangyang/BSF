@@ -15,9 +15,9 @@ function data_flt = BSF(data,block_len,Ns)
 # Usage example
 ```
 load data                           % load SLC SAR data
-Nb = [1000 1000];                   % block lengths
+block_len = [1000 1000];            % block lengths
 Ns = 2;                             % emprical RFI subspace dimensions
-data_flt = BSF(data,Nb,Ns);   
+data_flt = BSF(data,block_len,Ns);   
 ```
 # Example results
 <img src="imgs/input.jpg" width=256 height=256 /> <img src="imgs/output.jpg" width=256 height=256 /> <img src="imgs/res.jpg" width=256 height=256 />   
