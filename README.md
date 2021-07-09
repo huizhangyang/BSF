@@ -1,13 +1,6 @@
 # BSF
 Matlab/Octave code implementation of block subspace filter (BSF) for removing radio interference artefacts in SAR images
 
-# File description
-BSF.m --------- BSF function   
-example.m ---- example code for testing BSF.m   
-data.mat ------ test data   
-plot_sar ----- - function for plot a SAR data matrix as a gray scale image.    
-imgs ---------- folder containing gray-scale images.
-
 # Function description
 ```
 function data_flt = BSF(data,block_len,Ns)     
