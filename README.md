@@ -25,4 +25,4 @@ left: input image containing RFI;                       mid: filtered image;    
 
 More descriptions can be found in the following paper:    
 ##### Huizhang Yang et al., “BSF: Block Subspace Filter for Removing Narrowband and Wideband Radio Interference Artefacts in Single Look Complex SAR Images,” IEEE Trans. Geosci. Remote Sens., 2021.   
-If you find this repo useful, consider to cite this paper in your research.   
+If you find this repo useful, consider to cite this paper in your research.  If you have any question, send an email to hzyang@njust.edu.cn or huizhang.yang@outlook.com
